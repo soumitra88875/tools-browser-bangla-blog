@@ -104,7 +104,7 @@ thumbnail: https://raw.githubusercontent.com/soumitra88875/my-blog/main/assets/I
 এখন Tools List থেকে  
 👉 **Inspect Tool**-এ ক্লিক করুন।
 
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/my-blog/main/assets/Image/View_source_code_blog/Screenshot_2025-12-30-10-02-51-159_com.soumitra.toolsbrowser.jpg
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/my-blog/main/assets/Image/View_source_code_blog/IMG_20251230_095927.jpg
 )
 
 ---
@@ -118,7 +118,7 @@ Inspect Tool ওপেন হলেই—
 
 👉 **Beginners দের জন্য এটা সবচেয়ে Useful।**
 
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/my-blog/main/assets/Image/View_source_code_blog/Screenshot_2025-12-30-09-56-14-415_com.soumitra.toolsbrowser.jpg
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/my-blog/main/assets/Image/View_source_code_blog/Screenshot_2025-12-30-10-02-51-159_com.soumitra.toolsbrowser.jpg)
 )
 
 ---
