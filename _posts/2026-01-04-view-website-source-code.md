@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "মোবাইল দিয়ে Source Code দেখার সহজ উপায়"
-date: 2026-01-10
+date: 2026-01-04
 thumbnail: https://raw.githubusercontent.com/soumitra88875/my_blog_image/main/IMG_20251230_094637.jpg
 ---
 
