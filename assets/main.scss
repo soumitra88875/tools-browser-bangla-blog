@@ -80,12 +80,14 @@
   background: #2f2f2f;
   padding: 28px 16px;          /* slightly tighter */
   margin-top: 20px;
+  box-sizing: border-box;
 }
 
 .footer-inner {
   max-width: 520px;
   margin: 0 auto;
   text-align: center;
+  box-sizing: border-box;
 }
 
 /* Title */
@@ -140,3 +142,30 @@
     font-size: 16px;
   }
 }
+
+/* ===== Desktop Layout Safety ===== */
+@media (min-width: 768px) {
+  .tb-header-inner {
+    max-width: 1200px;
+    padding: 0 20px;
+  }
+
+  .footer-inner {
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .tb-header-inner,
+  .footer-inner {
+    max-width: 1200px;
+  }
+}
+
+@media (max-height: 420px) {
+  .tb-header {
+    height: 48px;
+  }
+}
+
+
