@@ -60,14 +60,14 @@
 }
 
 
-/* ===== TrickBD Style Header ===== */
+/* Header */
 .tb-header {
   background: #f1f1f1;
   border-bottom: 1px solid #dcdcdc;
   height: 52px;
 }
 
-/* Center container */
+/* Inner */
 .tb-header-inner {
   max-width: 1000px;
   height: 100%;
@@ -76,26 +76,44 @@
 
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 /* Logo text */
 .tb-logo-text {
   display: flex;
-  align-items: center;
   gap: 6px;
-
   text-decoration: none;
   font-size: 20px;
   font-weight: 600;
   font-family: 'Poppins', Arial, sans-serif;
 }
 
-/* "Tools" style */
 .tb-tools {
   color: #222;
 }
 
-/* "Browser" style (TrickBD blue feel) */
 .tb-browser {
   color: #2a6ebb;
+  font-weight: 700;
+}
+
+/* Download Button */
+.tb-download-btn {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 12px;
+
+  background: #2a6ebb;
+  color: #fff;
+
+  border-radius: 4px;
+  text-decoration: none;
+  white-space: nowrap;
+
+  transition: background 0.2s ease;
+}
+
+.tb-download-btn:hover {
+  background: #1f5290;
 }
