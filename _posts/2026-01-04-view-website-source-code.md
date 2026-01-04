@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "🔥 মোবাইল দিয়েই যেকোনো ওয়েবসাইটের Source Code দেখুন – এখন আর PC দরকার নেই!"
-date: 2026-01-04
+date: 2026-01-04 04:10:00
 thumbnail: https://raw.githubusercontent.com/soumitra88875/my_blog_image/main/IMG_20251230_094637.jpg
 ---
 
