@@ -11,4 +11,20 @@
   <title>{{ page.title | default: site.title }}</title>
 
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
-  </head>
+</head>
+
+<body>
+
+  <!-- Header -->
+  {% include header.html %}
+
+  <!-- Page Content -->
+  <main class="page-content">
+    {{ content }}
+  </main>
+
+  <!-- Footer -->
+  {% include footer.html %}
+
+</body>
+</html>
