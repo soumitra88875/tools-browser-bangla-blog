@@ -5,7 +5,9 @@
 @import "minima";
 
 
-/* Footer */
+.site-header .menu-icon {
+  display: none !important;
+}
 .custom-footer {
   background: linear-gradient(180deg, #111, #1e1e1e);
   padding: 40px 20px;
@@ -21,7 +23,7 @@
 .custom-footer h3 {
   font-size: 22px;
   margin-bottom: 12px;
-  color: #fff;
+  color: #ffffff;
 }
 
 .custom-footer p {
@@ -31,13 +33,22 @@
   margin-bottom: 22px;
 }
 
+/* Download Button */
 .download-btn {
   display: inline-block;
   padding: 14px 28px;
   background: linear-gradient(135deg, #00c853, #64dd17);
   color: #000;
   font-weight: 600;
+  font-size: 15px;
   border-radius: 30px;
   text-decoration: none;
-  box-shadow: 0 8px 18px rgba(0,200,83,.35);
+  box-shadow: 0 8px 18px rgba(0, 200, 83, 0.35);
+  transition: all 0.25s ease;
+}
+
+.download-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 25px rgba(0, 200, 83, 0.55);
+  background: linear-gradient(135deg, #64dd17, #00c853);
 }
