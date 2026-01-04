@@ -1,7 +1,6 @@
 ---
 layout: default 
 ---
-## পোস্ট সমূহ 
 <ul class="post-list">
 {% for post in site.posts %}
   <li style="display:flex;align-items:center;margin-bottom:15px;">
