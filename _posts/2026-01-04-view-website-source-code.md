@@ -84,7 +84,7 @@ thumbnail: https://raw.githubusercontent.com/soumitra88875/my-blog/main/assets/I
 
 ### 🔹 Step 3: Tools Button এ ক্লিক করুন
 
-ওয়েবসাইট লোড হয়ে গেলে নিচে / উপরে থাকা **Tools Button**-এ ক্লিক করুন।
+ওয়েবসাইট লোড হয়ে গেলে নিচে / মেনু বারে থাকা **Tools Button**-এ ক্লিক করুন।
 
 
 ![Thumbnail](https://raw.githubusercontent.com/soumitra88875/my-blog/main/assets/Image/View_source_code_blog/IMG_20260104_205607.jpg
@@ -130,7 +130,7 @@ Inspect Tool ওপেন হলেই—
 
 ### 🔹 Step 6: Source Page ওপেন করুন
 
-Inspect বা Source Page ওপেন থাকা অবস্থায়  
+Source Page ওপেন থাকা অবস্থায়  
 👉 উপরের **Menu (⋮)** বাটনে ক্লিক করুন।
 
 ![Thumbnail](https://raw.githubusercontent.com/soumitra88875/my-blog/main/assets/Image/View_source_code_blog/IMG_20251230_100824.jpg
