@@ -6,3 +6,5 @@ url: "https://soumitra88875.github.io"
 baseurl: "/my-blog"
 
 permalink: /:year/:month/:day/:title.html
+
+markdown: kramdown
