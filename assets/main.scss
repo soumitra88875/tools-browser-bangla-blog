@@ -64,6 +64,7 @@
   background: #f1f1f1;
   border-bottom: 1px solid #dcdcdc;
   height: 52px;
+  overflow: hidden; /* 🔒 overflow prevent */
 }
 
 /* Inner container */
@@ -74,10 +75,10 @@
   padding: 0 14px;
 
   display: flex;
-  align-items: center; /* vertical center */
+  align-items: center;
 }
 
-/* Logo wrapper */
+/* Logo + Text wrapper */
 .tb-logo {
   display: flex;
   align-items: center;
@@ -89,10 +90,9 @@
   color: #2a6ebb;
 }
 
-/* ✅ IMPORTANT FIX HERE */
+/* ✅ PERFECT LOGO FIX */
 .tb-logo img {
-  max-height: 100%;     /* header height respect করবে */
-  padding: 6px 4px;    /* 👈 vertical + horizontal space */
+  height: 34px;        /* 🔑 fixed height (not 100%) */
   width: auto;
   display: block;
 }
