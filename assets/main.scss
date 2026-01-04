@@ -66,6 +66,7 @@
   height: 52px;
 }
 
+/* Inner container */
 .tb-header-inner {
   max-width: 1000px;
   height: 100%;
@@ -73,9 +74,10 @@
   padding: 0 14px;
 
   display: flex;
-  align-items: center;
+  align-items: center; /* vertical center */
 }
 
+/* Logo wrapper */
 .tb-logo {
   display: flex;
   align-items: center;
@@ -87,7 +89,10 @@
   color: #2a6ebb;
 }
 
+/* ✅ IMPORTANT FIX HERE */
 .tb-logo img {
-  height: auto;
+  max-height: 100%;     /* header height respect করবে */
+  padding: 6px 4px;    /* 👈 vertical + horizontal space */
   width: auto;
+  display: block;
 }
