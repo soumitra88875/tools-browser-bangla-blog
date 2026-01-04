@@ -203,7 +203,7 @@ Source Page ওপেন থাকা অবস্থায়
 ## 📥 Tools Browser ডাউনলোড লিংক
 
 👉 **Tools Browser Download করুন এখান থেকে:**  
-🔗 *[](https://play.google.com/store/apps/details?id=com.soumitra.toolsbrowser)*
+🔗 *[Play Store থেকে Download করুন](https://play.google.com/store/apps/details?id=com.soumitra.toolsbrowser)*
 
 
 ## ❤️ *আপনাদের মতামত আমাদের জন্য গুরুত্বপূর্ণ*
