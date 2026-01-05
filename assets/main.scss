@@ -38,7 +38,7 @@ font-size: 20px;
 font-weight: 600;
 font-family: 'Poppins', Arial, sans-serif;
 
-white-space: nowrap;            /* 🔑 very important */
+white-space: nowrap;          
 overflow: hidden;
 }
 
@@ -68,14 +68,14 @@ border-radius: 4px;
 text-decoration: none;
 white-space: nowrap;
 
-flex-shrink: 0;                 /* 🔑 prevents squish */
+flex-shrink: 0;             
 transition: background 0.2s ease;
 }
 
 /* ===== Custom Footer ===== */
 .custom-footer {
 background: #2f2f2f;
-padding: 28px 16px;          / slightly tighter */
+padding: 28px 16px;          
 margin-top: 20px;
 box-sizing: border-box;
 }
@@ -100,14 +100,14 @@ margin-bottom: 12px;
 margin-bottom: 14px;
 font-size: 14px;
 
-display: flex;               /* 🔑 better control */
+display: flex;              
 flex-wrap: wrap;
 justify-content: center;
 gap: 8px;
 }
 
 .footer-links span {
-color: white;               /* cleaner */
+color: white;              
 }
 
 .footer-links a {
