@@ -8,5 +8,5 @@ baseurl: "/my-blog"
 permalink: /:year/:month/:day/:title.html
 
 markdown: kramdown
-paginate: 10     
+paginate: 1
 paginate_path: "/page:num/"
