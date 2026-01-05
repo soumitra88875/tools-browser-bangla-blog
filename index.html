@@ -1,58 +1,12 @@
----
+--- 
 layout: default
 ---
-
-{% assign per_page = 1 %}
-{% assign pinned_posts = site.posts | where: "pinned", true %}
-{% assign normal_posts = site.posts | where_exp: "post", "post.pinned != true" %}
-
-{% assign total_posts = normal_posts | size %}
-{% assign total_pages = total_posts | divided_by: per_page %}
-{% if total_posts | modulo: per_page != 0 %}
-  {% assign total_pages = total_pages | plus: 1 %}
-{% endif %}
-
-{% assign current_page = page.page | default: 1 %}
-{% assign offset = per_page | times: current_page | minus: per_page %}
-{% assign page_posts = normal_posts | slice: offset, per_page %}
-
-<ul class="post-list">
-
-<!-- 🔥 PINNED POSTS (ONLY PAGE 1) -->
-{% if current_page == 1 %}
-  {% for post in pinned_posts %}
-    <li class="pinned-post">
-      <a href="{{ post.url | relative_url }}"><b>{{ post.title }}</b></a>
-    </li>
-  {% endfor %}
-{% endif %}
-
-<!-- 🔹 NORMAL POSTS -->
-{% for post in page_posts %}
-  <li>
-    <a href="{{ post.url | relative_url }}"><b>{{ post.title }}</b></a>
-  </li>
+{%- assign pinned_posts = site.posts | where: "pinned", true -%} {%- assign normal_posts_all = site.posts | where_exp: "post", "post.pinned != true" -%} {% if paginator.page == 1 %} {% for post in pinned_posts %}
+{% if post.thumbnail %}{% endif %}
+{{ post.title }}
+📌 Pinned
+{% endfor %} {% endif %} {% assign per_page = site.paginate %} {% assign offset = per_page | times: paginator.page | minus: per_page %} {% assign page_posts = normal_posts_all | slice: offset, per_page %} {% for post in page_posts %}
+{% if post.thumbnail %}{% endif %}
+{{ post.title }}
 {% endfor %}
-
-</ul>
-
-<!-- 🔽 CUSTOM PAGINATION -->
-<div class="pagination">
-  {% if current_page > 1 %}
-    <a href="{{ site.baseurl }}/page/{{ current_page | minus: 1 }}/">« Prev</a>
-  {% endif %}
-
-  {% for i in (1..total_pages) %}
-    {% if i == current_page %}
-      <strong>{{ i }}</strong>
-    {% elsif i == 1 %}
-      <a href="{{ site.baseurl }}/">{{ i }}</a>
-    {% else %}
-      <a href="{{ site.baseurl }}/page/{{ i }}/">{{ i }}</a>
-    {% endif %}
-  {% endfor %}
-
-  {% if current_page < total_pages %}
-    <a href="{{ site.baseurl }}/page/{{ current_page | plus: 1 }}/">Next »</a>
-  {% endif %}
-</div>
+{% if paginator.previous_page %} « Prev {% endif %} {% for page in (1..paginator.total_pages) %} {% if page == paginator.page %} {{ page }} {% elsif page == 1 %} 1 {% else %} {{ page }} {% endif %} {% endfor %} {% if paginator.next_page %} Next » {% endif %}
