@@ -3,7 +3,7 @@ layout: default
 ---
 
 <ul class="post-list">
-{% for post in site.posts %}
+{% for post in paginator.posts %}
   <li style="display:flex;align-items:center;margin-bottom:15px;">
 
     {% if post.thumbnail %}
@@ -39,6 +39,7 @@ layout: default
   </li>
 {% endfor %}
 </ul>
+
 <!-- 🔽 Pagination START -->
 <div style="text-align:center;margin:30px 0;">
 
