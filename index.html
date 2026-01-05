@@ -5,40 +5,54 @@ layout: default
 <ul class="post-list">
 
 {%- assign pinned_posts = site.posts | where: "pinned", true -%}
-{%- assign normal_posts_all = site.posts | where_exp: "post", "post.pinned != true" -%}
+{%- assign normal_all = site.posts | where_exp: "post", "post.pinned != true" -%}
 
-<!-- 🔥 PINNED POSTS (ONLY PAGE 1, OUTSIDE PAGINATION) -->
+<!-- 🔥 PINNED POST (ONLY FIRST PAGE, OUTSIDE PAGINATION) -->
 {% if paginator.page == 1 %}
   {% for post in pinned_posts %}
     <li class="pinned-post" style="display:flex;align-items:center;margin-bottom:15px;">
+
       {% if post.thumbnail %}
         <img src="{{ post.thumbnail }}">
       {% endif %}
+
       <div>
         <a href="{{ post.url | relative_url }}">
           <b>{{ post.title }}</b>
         </a>
         <div style="font-size:11px;color:#d35400;">📌 Pinned</div>
+
+        <small style="color:#777;">
+          {{ post.date | date: "%b %d, %Y" }}
+        </small>
       </div>
+
     </li>
   {% endfor %}
 {% endif %}
 
-<!-- 🔹 NORMAL POSTS (PINNED বাদ দিয়ে PAGINATION) -->
+<!-- 🔹 NORMAL POSTS (STRICT PAGINATION WITHOUT PINNED) -->
 {% assign per_page = site.paginate %}
 {% assign offset = per_page | times: paginator.page | minus: per_page %}
-{% assign page_posts = normal_posts_all | slice: offset, per_page %}
+{% assign page_posts = normal_all | slice: offset, per_page %}
 
 {% for post in page_posts %}
   <li style="display:flex;align-items:center;margin-bottom:15px;">
+
     {% if post.thumbnail %}
       <img src="{{ post.thumbnail }}">
     {% endif %}
+
     <div>
       <a href="{{ post.url | relative_url }}">
         <b>{{ post.title }}</b>
-      </a>
+      </a><br>
+
+      <small style="color:#777;">
+        {{ post.date | date: "%b %d, %Y" }}
+      </small>
     </div>
+
   </li>
 {% endfor %}
 
