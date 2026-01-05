@@ -65,7 +65,14 @@ layout: default
     <a href="{{ paginator.previous_page_path | relative_url }}">« Prev</a>
   {% endif %}
 
-  {% for page in (1..paginator.total_pages) %}
+  {%- assign pinned_count = pinned_posts | size -%}
+  {%- assign normal_count = site.posts | size | minus: pinned_count -%}
+  {%- assign total_pages = normal_count | divided_by: site.paginate -%}
+  {%- if normal_count | modulo: site.paginate != 0 -%}
+    {%- assign total_pages = total_pages | plus: 1 -%}
+  {%- endif -%}
+
+  {% for page in (1..total_pages) %}
     {% if page == paginator.page %}
       <strong style="margin:0 6px;">{{ page }}</strong>
 
@@ -85,4 +92,3 @@ layout: default
 
 </div>
 <!-- 🔼 Pagination END -->
-
