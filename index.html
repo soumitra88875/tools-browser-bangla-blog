@@ -4,10 +4,10 @@ layout: default
 
 <ul class="post-list">
 
-{% assign pinned_posts = site.posts | where: "pinned", true %}
-{% assign normal_posts = paginator.posts | where_exp: "post", "post.pinned != true" %}
+{%- assign pinned_posts = site.posts | where: "pinned", true -%}
+{%- assign normal_all = site.posts | where_exp: "post", "post.pinned != true" -%}
 
-<!-- 🔥 PINNED POST (ONLY FIRST PAGE) -->
+<!-- 🔥 PINNED POST (ONLY FIRST PAGE, OUTSIDE PAGINATION) -->
 {% if paginator.page == 1 %}
   {% for post in pinned_posts %}
     <li class="pinned-post" style="display:flex;align-items:center;margin-bottom:15px;">
@@ -23,23 +23,7 @@ layout: default
         <div style="font-size:11px;color:#d35400;">📌 Pinned</div>
 
         <small style="color:#777;">
-          {% assign now = site.time | date: "%s" %}
-          {% assign post_time = post.date | date: "%s" %}
-          {% assign diff = now | minus: post_time %}
-
-          {% if diff < 60 %}
-            {{ diff }} sec ago
-          {% elsif diff < 3600 %}
-            {{ diff | divided_by: 60 }} min ago
-          {% elsif diff < 86400 %}
-            {{ diff | divided_by: 3600 }} hours ago
-          {% elsif diff < 2592000 %}
-            {{ diff | divided_by: 86400 }} days ago
-          {% elsif diff < 31536000 %}
-            {{ diff | divided_by: 2592000 }} months ago
-          {% else %}
-            {{ diff | divided_by: 31536000 }} years ago
-          {% endif %}
+          {{ post.date | date: "%b %d, %Y" }}
         </small>
       </div>
 
@@ -47,8 +31,12 @@ layout: default
   {% endfor %}
 {% endif %}
 
-<!-- 🔹 NORMAL POSTS (ALL PAGES) -->
-{% for post in normal_posts %}
+<!-- 🔹 NORMAL POSTS (STRICT PAGINATION WITHOUT PINNED) -->
+{% assign per_page = site.paginate %}
+{% assign offset = per_page | times: paginator.page | minus: per_page %}
+{% assign page_posts = normal_all | slice: offset, per_page %}
+
+{% for post in page_posts %}
   <li style="display:flex;align-items:center;margin-bottom:15px;">
 
     {% if post.thumbnail %}
@@ -61,23 +49,7 @@ layout: default
       </a><br>
 
       <small style="color:#777;">
-        {% assign now = site.time | date: "%s" %}
-        {% assign post_time = post.date | date: "%s" %}
-        {% assign diff = now | minus: post_time %}
-
-        {% if diff < 60 %}
-          {{ diff }} sec ago
-        {% elsif diff < 3600 %}
-          {{ diff | divided_by: 60 }} min ago
-        {% elsif diff < 86400 %}
-          {{ diff | divided_by: 3600 }} hours ago
-        {% elsif diff < 2592000 %}
-          {{ diff | divided_by: 86400 }} days ago
-        {% elsif diff < 31536000 %}
-          {{ diff | divided_by: 2592000 }} months ago
-        {% else %}
-          {{ diff | divided_by: 31536000 }} years ago
-        {% endif %}
+        {{ post.date | date: "%b %d, %Y" }}
       </small>
     </div>
 
