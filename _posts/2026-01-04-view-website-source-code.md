@@ -2,7 +2,7 @@
 layout: post
 title: "🔥 PC বা Laptop ছাড়াই এখন মোবাইল থেকেই যেকোনো ওয়েবসাইটের HTML, CSS, JavaScript Source Code দেখুন — Tools Browser দিয়ে সহজভাবে"
 date: 2026-01-04 16:10:00 +0530
-thumbnail: https://raw.githubusercontent.com/soumitra88875/my-blog/main/assets/Image/View_source_code_blog/20260104_213018.png
+thumbnail: https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/view_source_code_blog/20260104_213018.png
 ---
 
 
@@ -63,7 +63,7 @@ thumbnail: https://raw.githubusercontent.com/soumitra88875/my-blog/main/assets/I
 
 ---
 
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/my-blog/main/assets/Image/View_source_code_blog/IMG_20251230_094637.jpg
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/view_source_code_blog/IMG_20251230_094637.jpg
 )
 
 ---
@@ -81,7 +81,7 @@ thumbnail: https://raw.githubusercontent.com/soumitra88875/my-blog/main/assets/I
 
 ---
 
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/my-blog/main/assets/Image/View_source_code_blog/facebook_home.jpg
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/view_source_code_blog/facebook_home.jpg
 )
 
 ---
@@ -92,7 +92,7 @@ thumbnail: https://raw.githubusercontent.com/soumitra88875/my-blog/main/assets/I
 
 ---
 
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/my-blog/main/assets/Image/View_source_code_blog/IMG_20260104_205607.jpg
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/view_source_code_blog/IMG_20260104_205607.jpg
 )
 
 ---
@@ -101,7 +101,7 @@ thumbnail: https://raw.githubusercontent.com/soumitra88875/my-blog/main/assets/I
 
 ---
 
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/my-blog/main/assets/Image/View_source_code_blog/Screenshot_2025-12-30-09-56-14-415_com.soumitra.toolsbrowser.jpg
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/view_source_code_blog/Screenshot_2025-12-30-09-56-14-415_com.soumitra.toolsbrowser.jpg
 )
 
 ---
@@ -113,7 +113,7 @@ thumbnail: https://raw.githubusercontent.com/soumitra88875/my-blog/main/assets/I
 
 ---
 
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/my-blog/main/assets/Image/View_source_code_blog/IMG_20251230_095927.jpg
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/view_source_code_blog/IMG_20251230_095927.jpg
 )
 
 ---
@@ -128,7 +128,7 @@ Inspect Tool ওপেন হলেই—
 
 ---
 
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/my-blog/main/assets/Image/View_source_code_blog/Screenshot_2025-12-30-10-02-51-159_com.soumitra.toolsbrowser.jpg)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/view_source_code_blog/Screenshot_2025-12-30-10-02-51-159_com.soumitra.toolsbrowser.jpg)
 )
 
 ---
@@ -145,7 +145,7 @@ Source Page ওপেন থাকা অবস্থায়
 
 ---
 
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/my-blog/main/assets/Image/View_source_code_blog/IMG_20251230_100824.jpg
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/view_source_code_blog/IMG_20251230_100824.jpg
 )
 
 ---
@@ -156,7 +156,7 @@ Source Page ওপেন থাকা অবস্থায়
   
 ---
 
-  ![Thumbnail](https://raw.githubusercontent.com/soumitra88875/my-blog/main/assets/Image/View_source_code_blog/IMG_20251230_101118.jpg
+  ![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/view_source_code_blog/IMG_20251230_101118.jpg
 )
 
 ---
@@ -165,7 +165,7 @@ Source Page ওপেন থাকা অবস্থায়
   
 ---
 
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/my-blog/main/assets/Image/View_source_code_blog/IMG_20251230_101250.jpg
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/view_source_code_blog/IMG_20251230_101250.jpg
 )
 
 ---
@@ -175,7 +175,7 @@ Source Page ওপেন থাকা অবস্থায়
 
 ---
 
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/my-blog/main/assets/Image/View_source_code_blog/Screenshot_2025-12-30-10-13-53-801_com.soumitra.toolsbrowser.jpg
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/view_source_code_blog/Screenshot_2025-12-30-10-13-53-801_com.soumitra.toolsbrowser.jpg
 )
 
 ---
