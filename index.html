@@ -4,10 +4,9 @@ layout: default
 
 <ul class="post-list">
 
-{%- assign pinned_posts = site.posts | where: "pinned", true -%}
-{%- assign normal_all = site.posts | where_exp: "post", "post.pinned != true" -%}
+{% assign pinned_posts = site.posts | where: "pinned", true %}
 
-<!-- 🔥 PINNED POST (ONLY FIRST PAGE, OUTSIDE PAGINATION) -->
+<!-- 🔥 PINNED POST (ONLY PAGE 1, SEPARATE) -->
 {% if paginator.page == 1 %}
   {% for post in pinned_posts %}
     <li class="pinned-post" style="display:flex;align-items:center;margin-bottom:15px;">
@@ -23,7 +22,14 @@ layout: default
         <div style="font-size:11px;color:#d35400;">📌 Pinned</div>
 
         <small style="color:#777;">
-          {{ post.date | date: "%b %d, %Y" }}
+          {% assign now = site.time | date: "%s" %}
+          {% assign post_time = post.date | date: "%s" %}
+          {% assign diff = now | minus: post_time %}
+          {% if diff < 86400 %}
+            {{ diff | divided_by: 3600 }} hours ago
+          {% else %}
+            {{ diff | divided_by: 86400 }} days ago
+          {% endif %}
         </small>
       </div>
 
@@ -31,12 +37,16 @@ layout: default
   {% endfor %}
 {% endif %}
 
-<!-- 🔹 NORMAL POSTS (STRICT PAGINATION WITHOUT PINNED) -->
-{% assign per_page = site.paginate %}
-{% assign offset = per_page | times: paginator.page | minus: per_page %}
-{% assign page_posts = normal_all | slice: offset, per_page %}
+<!-- 🔹 NORMAL POSTS LOGIC -->
+{% if paginator.page == 1 %}
+  {%- comment -%} Page-1: pinned already shown, so skip it {%- endcomment -%}
+  {% assign normal_posts = paginator.posts | where_exp: "post", "post.pinned != true" %}
+{% else %}
+  {%- comment -%} Page-2+: show everything normally {%- endcomment -%}
+  {% assign normal_posts = paginator.posts %}
+{% endif %}
 
-{% for post in page_posts %}
+{% for post in normal_posts %}
   <li style="display:flex;align-items:center;margin-bottom:15px;">
 
     {% if post.thumbnail %}
@@ -49,7 +59,14 @@ layout: default
       </a><br>
 
       <small style="color:#777;">
-        {{ post.date | date: "%b %d, %Y" }}
+        {% assign now = site.time | date: "%s" %}
+        {% assign post_time = post.date | date: "%s" %}
+        {% assign diff = now | minus: post_time %}
+        {% if diff < 86400 %}
+          {{ diff | divided_by: 3600 }} hours ago
+        {% else %}
+          {{ diff | divided_by: 86400 }} days ago
+        {% endif %}
       </small>
     </div>
 
@@ -57,7 +74,6 @@ layout: default
 {% endfor %}
 
 </ul>
-
 <!-- 🔽 Pagination START -->
 <div style="text-align:center;margin:30px 0;">
 
