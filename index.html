@@ -4,72 +4,41 @@ layout: default
 
 <ul class="post-list">
 
-{% assign pinned_posts = site.posts | where: "pinned", true %}
+{%- assign pinned_posts = site.posts | where: "pinned", true -%}
+{%- assign normal_posts_all = site.posts | where_exp: "post", "post.pinned != true" -%}
 
-<!-- 🔥 PINNED POST (ONLY PAGE 1, SEPARATE) -->
+<!-- 🔥 PINNED POSTS (ONLY PAGE 1, OUTSIDE PAGINATION) -->
 {% if paginator.page == 1 %}
   {% for post in pinned_posts %}
     <li class="pinned-post" style="display:flex;align-items:center;margin-bottom:15px;">
-
       {% if post.thumbnail %}
         <img src="{{ post.thumbnail }}">
       {% endif %}
-
       <div>
         <a href="{{ post.url | relative_url }}">
           <b>{{ post.title }}</b>
         </a>
         <div style="font-size:11px;color:#d35400;">📌 Pinned</div>
-
-        <small style="color:#777;">
-          {% assign now = site.time | date: "%s" %}
-          {% assign post_time = post.date | date: "%s" %}
-          {% assign diff = now | minus: post_time %}
-          {% if diff < 86400 %}
-            {{ diff | divided_by: 3600 }} hours ago
-          {% else %}
-            {{ diff | divided_by: 86400 }} days ago
-          {% endif %}
-        </small>
       </div>
-
     </li>
   {% endfor %}
 {% endif %}
 
-<!-- 🔹 NORMAL POSTS LOGIC -->
-{% if paginator.page == 1 %}
-  {%- comment -%} Page-1: pinned already shown, so skip it {%- endcomment -%}
-  {% assign normal_posts = paginator.posts | where_exp: "post", "post.pinned != true" %}
-{% else %}
-  {%- comment -%} Page-2+: show everything normally {%- endcomment -%}
-  {% assign normal_posts = paginator.posts %}
-{% endif %}
+<!-- 🔹 NORMAL POSTS (PINNED বাদ দিয়ে PAGINATION) -->
+{% assign per_page = site.paginate %}
+{% assign offset = per_page | times: paginator.page | minus: per_page %}
+{% assign page_posts = normal_posts_all | slice: offset, per_page %}
 
-{% for post in normal_posts %}
+{% for post in page_posts %}
   <li style="display:flex;align-items:center;margin-bottom:15px;">
-
     {% if post.thumbnail %}
       <img src="{{ post.thumbnail }}">
     {% endif %}
-
     <div>
       <a href="{{ post.url | relative_url }}">
         <b>{{ post.title }}</b>
-      </a><br>
-
-      <small style="color:#777;">
-        {% assign now = site.time | date: "%s" %}
-        {% assign post_time = post.date | date: "%s" %}
-        {% assign diff = now | minus: post_time %}
-        {% if diff < 86400 %}
-          {{ diff | divided_by: 3600 }} hours ago
-        {% else %}
-          {{ diff | divided_by: 86400 }} days ago
-        {% endif %}
-      </small>
+      </a>
     </div>
-
   </li>
 {% endfor %}
 
