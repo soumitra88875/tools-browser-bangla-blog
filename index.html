@@ -28,9 +28,9 @@ layout: default
   <div style="display:flex; justify-content:space-between; align-items:center; font-size:12px; color:#777;">
     <small style="color:#777; display:flex; justify-content:space-between;">
   <span>{{ post.date | date: "%b %d, %Y" }}</span>
-  <span>
-    <span data-goatcounter-hit="{{ post.url | relative_url }}"></span> view
-  </span>
+
+    <span data-goatcounter-hit data-goatcounter-url="{{ post.url | relative_url }}"></span> viewss
+  
 </small>
   </div>
 
