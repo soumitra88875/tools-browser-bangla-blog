@@ -3,7 +3,7 @@ description: Web Development ও Mobile Tech শেখার জন্য এক
 theme: minima
 
 url: "https://soumitra88875.github.io"
-baseurl: "/my-blog"
+baseurl: "/tools-browser-bangla-blog"
 
 permalink: /:year/:month/:day/:title.html
 
