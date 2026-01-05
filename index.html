@@ -26,13 +26,12 @@ layout: default
 
   <!-- date + views same line -->
   <div style="display:flex; justify-content:space-between; align-items:center; font-size:12px; color:#777;">
-    <span>
-      {{ post.date | date: "%b %d, %Y" }}
-    </span>
-
-    <span>
-      <span data-goatcounter-hit></span> views
-    </span>
+    <small style="color:#777; display:flex; justify-content:space-between;">
+  <span>{{ post.date | date: "%b %d, %Y" }}</span>
+  <span>
+    <span data-goatcounter-hit="{{ post.url | relative_url }}"></span> views
+  </span>
+</small>
   </div>
 
       </div>
