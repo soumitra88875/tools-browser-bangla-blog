@@ -50,9 +50,16 @@ layout: default
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
       <strong style="margin:0 6px;">{{ page }}</strong>
+
+    {% elsif page == 1 %}
+      <!-- Page 1 always goes to home -->
+      <a href="{{ site.baseurl }}/" style="margin:0 6px;">
+        1
+      </a>
+
     {% else %}
-      <a href="{{ paginator.paginate_path | replace: ':num', page | relative_url }}"
-         style="margin:0 6px;">
+      <!-- Page 2,3,4... -->
+      <a href="{{ site.baseurl }}/page{{ page }}/" style="margin:0 6px;">
         {{ page }}
       </a>
     {% endif %}
