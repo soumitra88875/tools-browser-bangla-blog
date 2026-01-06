@@ -204,18 +204,18 @@ JavaScript কাজ করছে কিনা বুঝতে—
 
 এবার এই স্ক্রিপ্ট দিয়ে টুলস ক্রিয়েট করো আন্ড Inject করার পর আবার **Tools button এ click করো।**
 
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/javascript_learning_smart_way/blog2_img10.jpg)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/javascript_learning_smart_way/blog2_img3.jpg)
 
 তারপর **Tools** থেকে **Console** page open করো।
 
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/javascript_learning_smart_way/blog2_img11.jpg)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/javascript_learning_smart_way/blog2_img15.jpg)
 
 **এখানে দেখবে—**
 • Success হলে success message
 • Error হলে error message
 আমার স্ক্রিপ্ট এ কোনো ভুল নেই তাই দেখো আমর **success message এসেছে।**
 
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/javascript_learning_smart_way/blog2_img12.jpg)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/javascript_learning_smart_way/blog2_img16.jpg)
 
 
 এভাবেই বুঝবে script ঠিক আছে নাকি fail করছে।
@@ -233,11 +233,11 @@ JavaScript কাজ করছে কিনা বুঝতে—
 **Custom page থেকে menu তে যাও
 JavaScript Lab open করো**
 
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/javascript_learning_smart_way/blog2_img13.jpg)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/javascript_learning_smart_way/blog2_img10.jpg)
 
 দেখবে অনেক **ready-made JavaScript** আছে।
 
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/javascript_learning_smart_way/blog2_img14.jpg)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/javascript_learning_smart_way/blog2_img11.jpg)
 
 যেমন—
 • Text color change
@@ -249,17 +249,17 @@ JavaScript Lab open করো**
 আমি **Highlight  All Links** script এর উপর ক্লিক করলাম।
  এটা একটু scroll করলে নিচের দিকে পেয়ে যাবে।
 
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/javascript_learning_smart_way/blog2_img15.jpg)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/javascript_learning_smart_way/blog2_img12.jpg)
 
 দেখো **Custom tools page** এ অ্যাড হইয়ে গেছে। 
 
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/javascript_learning_smart_way/blog2_img16.jpg)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/javascript_learning_smart_way/blog2_img13.jpg)
 
 Tool এ click করো
 **Live website এ result দেখো**
 যেহেতু আমি সব লিংক গুলো Hightlight করেছি তাই দেখো যেখানে যেখানে লিংক আছে সব yellow কালার হইয়ে গেছে। তুমি চাইলে **স্ক্রিপ্ট মডিফাই** করে আলাদা কালার দিতে পারো।
 
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/javascript_learning_smart_way/blog2_img17.jpg)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/javascript_learning_smart_way/blog2_img14.jpg)
 
 এটাই **real learning।**
 
