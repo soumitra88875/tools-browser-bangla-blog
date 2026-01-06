@@ -276,3 +276,21 @@ font-size: 11px;
 color: #f39c12;
 font-weight: 600;
 } 
+
+/* ===== Code Block Fix (Mobile Safe) ===== */
+pre,
+code {
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: pre-wrap;      
+  word-wrap: break-word;      
+  overflow-wrap: break-word;  
+}
+
+pre {
+  background: #f6f8fa;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 1.6;
+}
