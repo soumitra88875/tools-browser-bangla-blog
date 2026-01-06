@@ -2,7 +2,6 @@
 layout: post
 title: "JavaScript শেখার নতুন পথ: শুধু Mobile ব্যবহার করে Real Website-এ Code Test ও Debug করার সম্পূর্ণ প্রক্রিয়া — Tools Browser দিয়ে"
 date: 2026-01-05 16:10:00 +0530
-pinned: true
 thumbnail: https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/javascript_learning_smart_way/20260106_133206.png
 ---
 JavaScript শেখার সময় সবচেয়ে বড় যে ভুলটা প্রায় সবাই করে, সেটা হলো—
