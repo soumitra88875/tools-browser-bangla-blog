@@ -3,7 +3,7 @@ layout: post
 title: "ডাটা কম? Image লোডে বিরক্ত? মোবাইলে যেকোনো ওয়েবসাইট Text-Only Mode-এ পড়ার Complete বাংলা Guide"
 date: 2026-01-06 16:10:00 +0530
 published: false
-thumbnail: https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/
+thumbnail: https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/read-only-mode/post3_thumbnail.png
 ---
 
 আপনি কি কখনো এমন অবস্থায় পড়েছেন—
