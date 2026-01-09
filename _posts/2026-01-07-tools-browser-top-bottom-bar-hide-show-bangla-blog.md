@@ -3,7 +3,7 @@ layout: post
 title: "Tools Browser ব্যবহার করতে গিয়ে Top Bar / Nav Bar হারিয়ে যাচ্ছে? জেনে নিন কীভাবে Top Bar ও Bottom Nav Bar Show / Hide করতে হয়"
 date: 2026-01-04 16:10:00 +0530
 published: false
-thumbnail: https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/view_source_code_blog/20260104_213018.png
+thumbnail: https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/nav_top_bar_hide_show/thumbnail.png
 ---
 
 Tools Browser ব্যবহার করার সময় অনেক user হঠাৎ একটা জিনিস লক্ষ্য করে। 
@@ -57,16 +57,76 @@ Tools Browser এমনভাবে design করা হয়েছে যেন �
 
 Tools Browser এ এর মানে হলো —
 
-- Top bar hide হয়ে যায়  
-- Bottom nav bar hide হয়ে যায়  
-- পুরো ওয়েবপেজ full screen হয়ে যায়  
+- প্রথম দুই আঙুল touch করলেই **Top bar আর Bottom nav bar hide হয়ে যায়**
+- এরপর scroll up বা down করলেও bar আর show হয় না
+- পুরো ওয়েবপেজ **full page / full screen mode** এ চলে যায়  
+
+এই system টা বানানো হয়েছে  
+**একদম distraction-free reading experience** দেওয়ার জন্য।
 
 এর পর user কী notice করে?
 
 👉 Content নিচ থেকে উপরে পুরোটা পড়া যায়  
 👉 Bottom এর লেখা বা button আর ঢেকে থাকে না  
 
-এই দিক থেকে এটা ভালোই।
+এই দিক থেকে এটা সত্যিই ভালো।
+
+---
+
+## কিন্তু এখানেই confusion শুরু হয়
+
+অনেক user তখন ভাবে —
+
+“Hide তো হলো,  
+এখন আবার show করবো কীভাবে?”
+
+অনেকে আবার ভুল করে  
+display তে আবার দুই আঙুল touch করে ফেলে,  
+আর তখনও bar hide-ই থাকে।
+
+তখন user ভাবে —
+“এইটা কি bug?”  
+“App কি hang হয়ে গেছে?”  
+
+অনেকেই তখন app close করে  
+আবার open করে।
+
+কিন্তু app reopen করার পরও  
+দেখে Top bar আর Bottom nav bar hide অবস্থাতেই আছে।
+
+এখানেই user সবচেয়ে বেশি confuse হয়।
+
+---
+
+## আসল নিয়মটা খুব simple
+
+যখন bar hide হয়ে থাকে —
+
+- একই ওয়েবপেজের উপর আবার **দুই আঙুল দিয়ে touch করলে**
+- তখন **Top bar আর Bottom nav bar আবার show হয়ে যায়**
+
+মানে —
+- Two finger = Hide  
+- আবার Two finger = Show  
+
+এইটা toggle system।
+
+নিচের screenshot গুলো দেখলে বিষয়টা আরও clear হবে —
+---
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/nav_top_bar_hide_show/hide_nav_top_bar.png)
+---
+
+---
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/nav_top_bar_hide_show/show_nav_src_bar.png)
+---
+
+- প্রথম screenshot: Two finger touch করার পর bar hide  
+- দ্বিতীয় screenshot: আবার two finger touch করার পর bar show  
+
+এই system টা bug না,  
+এটা Tools Browser এর built-in feature।
+
+একবার বুঝে গেলে আর কখনো confuse হবেন না।
 
 ---
 
@@ -77,14 +137,14 @@ Problem শুরু হয় এখানেই।
 Two finger touch করার পর —
 
 - Menu hide হয়ে যায়  
-- Source (view source / inspect type tools) hide হয়ে যায়  
-- New tab open করার option hide হয়ে যায়  
+- New tab open করার option hide হয়ে যায়
+- মোটকথা পুরো সার্চ বার Hide হইয়ে যায়।
 
 অনেক user এসব option **সবসময় visible রাখতে চায়**।
 
 মানে user চায় —
 - Bottom এর content clear থাকুক  
-- কিন্তু Top bar এর menu, tools, tab option যেন না হারায়  
+- কিন্তু Top bar এর menu, tab option যেন না হারায়  
 
 এখানেই Two finger full hide system অনেকের পছন্দ হয় না।
 
@@ -98,16 +158,17 @@ Two finger touch করার পর —
 
 এতে করে —
 - Bottom এর content clear থাকে  
-- Top bar এর menu, tools, tab সব available থাকে  
+- Top bar এর menu, tab সব available থাকে  
 
 ### কীভাবে Only Bottom Nav Bar Hide করবেন
 
 1. Tools Browser খুলুন  
-2. Settings এ যান  
+2. **Settings** এ যান  
 3. উপরের দিকে দেখবেন **Hide Bottom Bar** নামে একটি option  
 4. ওই option এ টিক দিন  
-
-এইটুকুই।
+নিচের স্ক্রীনশট follow করুন।
+---
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/nav_top_bar_hide_show/hide_nav_bar_only.jpg)
 
 ---
 
@@ -128,12 +189,6 @@ Two finger touch করার পর —
 - Control ও user এর হাতেই থাকে  
 
 এটাই বেশিরভাগ user এর জন্য best setup।
-
----
-
-## Screenshots
-
----
 
 ## কখন Bottom Nav Bar Hide রাখা সবচেয়ে ভালো?
 
@@ -166,7 +221,9 @@ Tools Browser নিয়মিত update হয়।
 
 ## Tools Browser – Latest Version Download
 
-https://play.google.com/store/apps/details?id=YOUR_APP_PACKAGE_NAME
+👉 **Tools Browser Download করুন এখান থেকে:**  
+🔗 *[Play Store থেকে Download করুন](https://play.google.com/store/apps/details?id=com.soumitra.toolsbrowser)*
+
 
 ---
 
