@@ -79,8 +79,7 @@ Element Lock দুইভাবে কাজ করে —
 2️⃣ By Tag  
 
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/
-)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/blog5_img1.jpg)
 ---
 
 দুটো আলাদা আলাদা কাজের জন্য।
@@ -133,21 +132,18 @@ Tools Browser আগে দেখে —
 ধরুন আপনি W3Schools খুললেন।
 
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/
-)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/blog5_img2.jpg)
 ---
 
 এখন —
 
 1. Menu → Element Lock চালু করুন
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/
-)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/blog5_img3.jpg)
 ---
 2. উপরে দেখবেন — “Tools Running”  
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/
-)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/blog5_img5.jpg)
 ---
 3. যেকোনো element-এ ট্যাপ করুন  
 
