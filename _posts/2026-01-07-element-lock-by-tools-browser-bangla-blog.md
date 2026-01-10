@@ -3,7 +3,7 @@ layout: post
 title: "🔐 Element Lock – ওয়েবসাইটকে নিজের মতো করে সাজানোর সুপারপাওয়ার লাইভ ডিজাইন পরিবর্তন করুন, কোড ছাড়াই নিজের মতো করে যেকোনো ওয়েবসাইট কাস্টমাইজ করুন"
 date: 2026-01-07 16:10:00 +0530
 published: false
-thumbnail: https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/view_source_code_blog/20260104_213018.png
+thumbnail: https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/blog5_thumbnail.png
 ---
 
 আপনি কখনো ভেবেছেন —
