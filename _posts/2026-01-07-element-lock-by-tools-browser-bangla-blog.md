@@ -79,7 +79,7 @@ Element Lock দুইভাবে কাজ করে —
 2️⃣ By Tag  
 
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/view_source_code_blog/Screenshot_2025-12-30-10-13-53-801_com.soumitra.toolsbrowser.jpg
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/
 )
 ---
 
@@ -133,7 +133,7 @@ Tools Browser আগে দেখে —
 ধরুন আপনি W3Schools খুললেন।
 
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/view_source_code_blog/Screenshot_2025-12-30-10-13-53-801_com.soumitra.toolsbrowser.jpg
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/
 )
 ---
 
@@ -141,18 +141,18 @@ Tools Browser আগে দেখে —
 
 1. Menu → Element Lock চালু করুন
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/view_source_code_blog/Screenshot_2025-12-30-10-13-53-801_com.soumitra.toolsbrowser.jpg
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/
 )
 ---
 2. উপরে দেখবেন — “Tools Running”  
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/view_source_code_blog/Screenshot_2025-12-30-10-13-53-801_com.soumitra.toolsbrowser.jpg
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/
 )
 ---
 3. যেকোনো element-এ ট্যাপ করুন  
 
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/view_source_code_blog/Screenshot_2025-12-30-10-13-53-801_com.soumitra.toolsbrowser.jpg
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/
 )
 ---
 
@@ -161,14 +161,14 @@ Tools Browser আগে দেখে —
 আমি position select করলাম। কারণ w3school diamically dom পাল্টায় নাহ।
 
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/view_source_code_blog/Screenshot_2025-12-30-10-13-53-801_com.soumitra.toolsbrowser.jpg
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/
 )
 ---
 
 তারপর continue বাটনে ক্লিক করলে দেখবেন Element lock page show হবে।
 
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/view_source_code_blog/Screenshot_2025-12-30-10-13-53-801_com.soumitra.toolsbrowser.jpg
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/
 )
 ---
 
@@ -210,7 +210,7 @@ App Close করে আবার খুললেও
 2. Menu থেকে → **All Hidden Elements**
 
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/view_source_code_blog/Screenshot_2025-12-30-10-13-53-801_com.soumitra.toolsbrowser.jpg
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/
 )
 ---
 
@@ -218,7 +218,7 @@ App Close করে আবার খুললেও
 4. **Show** চাপুন
 
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/view_source_code_blog/Screenshot_2025-12-30-10-13-53-801_com.soumitra.toolsbrowser.jpg
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/
 )
 ---
 
