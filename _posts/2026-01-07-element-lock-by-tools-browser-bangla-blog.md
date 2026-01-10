@@ -145,27 +145,26 @@ Tools Browser আগে দেখে —
 ---
 ![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/blog5_img5.jpg)
 ---
-3. যেকোনো element-এ ট্যাপ করুন  
+3. যেকোনো element-এ ট্যাপ করুন
+4. আমি **Learn to Code** এর উপর ক্লিক করলাম
 
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/
-)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/blog5_img6.jpg)
 ---
 
-একটা dialog আসবে —  
+ক্লিক করার সাথে সাথে
+একটা **dialog আসবে** —  
 এখন বেছে নিন — আপনি যেটা অনুযায়ী element lock করতে চান। 
-আমি position select করলাম। কারণ w3school diamically dom পাল্টায় নাহ।
+আমি **position select করলাম**। কারণ w3school diamically dom পাল্টায় নাহ।
 
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/
-)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/blog5_img7.jpg)
 ---
 
 তারপর continue বাটনে ক্লিক করলে দেখবেন Element lock page show হবে।
 
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/
-)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/blog5_img8.jpg)
 ---
 
 এখন Element lock পেজ থেকে বেছে নিন।
@@ -177,6 +176,24 @@ Border
 Font  
 
 সব কিছু Live পরিবর্তন হবে।
+
+আমি **Learn to Code** element এর **background color পরিবর্তন করতে চাই,**
+তাই **Chnage background color** Select করলাম।
+আর কালার select করলাম green.
+
+এখন **Apply button** এ ক্লিক করুন।
+নিচের স্ক্রিনশট টা দেখুন।
+
+---
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/blog5_img9.jpg)
+---
+
+**Apply** button click করার পর দেখবেন লাইভ desing change হইয়ে গেছে। 
+আমি যেহেতু background color change করেছি তাই দেখুন *Learn to code** element এর background color green।
+
+---
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/blog5_img10.jpg)
+---
 
 ---
 
@@ -202,20 +219,21 @@ App Close করে আবার খুললেও
 
 কিন্তু সমাধান আছে।
 
-1. সেই পেজ লোড থাকা অবস্থায় Element Lock page open করুন  
-2. Menu থেকে → **All Hidden Elements**
+1. সেই পেজ লোড থাকা অবস্থায় **Element Lock page open করুন।**
+2. যেকোনো একটা element উপর ক্লিক করলেই হবে।
+3. Menu থেকে → **All Hidden Elements**
 
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/
-)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/blog5_img11.jpg)
 ---
 
-3. লিস্ট থেকে যেটা ফেরত চান সেটায় **সিলেক্ট করুন** 
-4. **Show** চাপুন
+3. লিস্ট থেকে যেটা ফেরত চান সেটায় **সিলেক্ট করুন**
+4. আমি যেহেতু একটা element hide করেছিলাম তাই আমি একটাই দেখসছে।
+5. আপনি যতগুলো করবেন সবগুলোই দেখাবে।
+6. **Show** চাপুন
 
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/
-)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/element-lock/blog5_img11.jpg)
 ---
 
 **Page Reload** হবে  
