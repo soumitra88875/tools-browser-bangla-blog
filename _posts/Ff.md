@@ -103,15 +103,27 @@ adult-cdn.site
 
 Tools Browser এ যাও:
 
-1. App Settings » Custom Block List
+**1. App Settings » Custom Block List**
 
 📸 (Screenshot: Custom Block List page)
 
-এখানে শুধু domain দাও:
+তারপর Custom Block List পেজ থেকে 
 
+1. **menu** তে যাও
+---
+---
+2.তারপর**add new** button e click করো।
+
+---
+---
+এখানে শুধু domain বা Full url path দাও:
+
+**এক্সাম্পল:**
 ads.network.com
+অথবা 
+https://ads.network.com/djjdbm
 
-Save করো।
+3. **Save করো।**
 
 📸 (Screenshot: Domain added & saved)
 
@@ -124,15 +136,18 @@ Save করো।
 
 ---
 
-🔍 যদি না জানো কোন Ads Company?
+## 🔍 যদি না জানো কোন Ads Company?
 
-Method 1 — Inspect Tool
+**Method 1** — Inspect Tool
 
 Website খুলে যাও →
-Tools → Inspect / Page Source
 
-📸 (Screenshot: Inspect menu)
-📸 (Screenshot: Page source view)
+i. **Tools →**
+---
+---
+ii. **Inspect →**
+---
+---
 
 খুঁজো:
 
@@ -142,59 +157,71 @@ iframe
 redirect
 .js
 
-তুমি পাবে এরকম:
-
+**তুমি পাবে এরকম:**
 https://ads.somecompany.com/script.js
-
-এইটাই ads server।
-
+অথবা অন্য ভাবেইও থাকতে পারে তুমি নিজে confirm হইয়েনেও কোনটা ads url
 
 ---
 
-Method 2 — ChatGPT (সবচেয়ে সহজ)
+**Method 2** — ChatGPT (সবচেয়ে সহজ)
 
 Page source পুরো কপি করো
 ChatGPT-তে paste করো
 লিখো:
 
-> “এই website কোন কোন URL থেকে ads বা popup লোড করছে?”
+> **“এই website কোন কোন URL থেকে ads বা popup লোড করছে?”**
 
 
 
-ChatGPT বলবে কোন domain Ads দিচ্ছে।
+ChatGPT বলবে কোন **domain Ads দিচ্ছে।**
 
-সেই domain Custom Block List-এ দাও।
+তারপর chatgpt যখন তোমাকে url বা ads company domain return করবে তখন 
+সেই domain Custom Block List-এ add করে দাও।
 
 
 ---
 
-🎯 Banner Ads (চোখের সামনে থাকা Ads) hide করা
+## 🎯 Banner Ads (চোখের সামনে থাকা Ads) hide করা
 
 অনেক সময়
 Redirect নেই
 Popup নেই
-কিন্তু বড় বড় Banner Ads থাকে।
+কিন্তু বড় বড় **Banner Ads** থাকে।
 
-এগুলো hide করা যায় Parent Container দিয়ে।
-
-
----
-
-Step 1
-
-Website খুলে
-Tools → Element Inspector
-
-📸 (Screenshot: Element inspector tool)
-
-Banner এর উপর tap করো।
-
+এগুলো hide করা যায় Parent Container দিয়ে। html code modify করে।
+ চলো দেখি Tools browser দিয়ে এই কাজটা কিভাবে করা যায়।
 
 ---
 
-Step 2
+**Step 1:**
 
-HTML-এ তার Parent Container খুঁজো
+যে Website এর bannar ads hide করতে চাও সেই ওয়েবসাইট load করো।
+আমি w3school load করলাম।
+
+---
+---
+
+i) তারপর **Tools** → button এ ক্লিক করো
+
+---
+---
+ii) Tools page থেকে **Edit Element** tool e ক্লিক করো।
+
+---
+---
+
+Banner এর উপর tap করো। কিন্তু যদি Bannar ads যদি ifram বা shadow dom er ভেতর থাকে 
+তাইলে ক্লিক কাজ করবে নাহ। এই অবস্থায় banner ads এর পাশে বা background element এ ক্লিক 
+করার try করো।
+
+---
+---
+
+
+**Step 2:**
+যে html return পাবে সেই
+
+HTML-এ banner ads Parent Container খুঁজো
 
 Ads সাধারণত iframe বা dynamic script থেকে আসে —
 ওগুলো modify করা যায় না।
@@ -206,18 +233,26 @@ Ads সাধারণত iframe বা dynamic script থেকে আসে �
 <div id="ads-container">  
 <div class="banner-ad">  এই ID বা Class কপি করো।
 
+---
 📸 (Screenshot: Parent container highlighted)
-
-
 ---
 
-Step 3
+**Step 3:**
 
-Menu → Local JavaScript
-✔ Entire Site
-→ New Script
+এবার আসল কাজ 
+app Menu → Local JavaScript page open করো 
 
-📸 (Screenshot: Local JavaScript menu)
+---
+---
+এবার এই page থেকে 
+**✔ Entire Site**
+এ টিক চিহ্ন দেও।
+
+তারপর মেনু থেকে
+**→ Create new**
+
+---
+---
 
 নিচের JS বসাও
 (এটা ID এবং Class — দুটোই support করে):
@@ -238,6 +273,8 @@ adsByClass[i].style.display = "none";
 তুমি Inspector থেকে কপি করা নাম দিয়ে replace করবে।
 
 Save করো।
+
+এ
 
 
 ---
