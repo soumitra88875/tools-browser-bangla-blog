@@ -54,8 +54,6 @@ Tools Browser কোনো website-এর ভেতরের ads কাটে �
 
 ---
 
-📸 (Screenshot: Settings page)
-
 এটা চেক ✅ on korle 
 
 Redirect ads block
@@ -128,12 +126,12 @@ Tools Browser দিয়েছে শক্তিশালী একটা ফি
 
 তারপর Custom Block List পেজ থেকে 
 
-1. **menu** তে যাও
+1. **Menu** তে যাও
 ---
 ![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img5.jpg)
 
 ---
-2.তারপর**add new** button e click করুন।
+2.তারপর**Add new** button e click করুন।
 
 ---
 ![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img6.jpg)
@@ -145,11 +143,13 @@ ads.network.com
 অথবা 
 https://ads.network.com/djjdbm
 
-3. **Save করো।**
+3. **Add button এ ক্লিক করুন।**
+---
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img7.jpg)
+----
 
-📸 (Screenshot: Domain added & saved)
-
-এখন সেই server থেকে আর কিছু লোড হবে না —
+এখন site টা reload করে দেখুন।
+এখন সেই url থেকে আর কিছু লোড হবে না —
 >না ads
 >না popup
 >না redirect
@@ -178,11 +178,11 @@ content পাঠাচ্ছে।
 
 i. **Tools →**
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img7.jpg)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img8.jpg)
 ---
 ii. **Inspect →**
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img8.jpg)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img9.jpg)
 ---
 
 এবার এই inspect page থেকে খুঁজে বের করুন।
@@ -249,18 +249,18 @@ Tools Browser ব্যবহার করে
 আমি w3school load করলাম।
 
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img9.jpg)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img10.jpg)
 ---
 
 i) তারপর **Tools** → button এ ক্লিক করো
 
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img10.jpg)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img11.jpg)
 ---
 ii) Tools page থেকে **Edit Element** tool e ক্লিক করো।
 
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img11.jpg)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img12.jpg)
 ---
 
 এখন যে Banner Ads hide করতে চান,
@@ -276,7 +276,7 @@ Banner-এর ঠিক পাশের কোনো element
 এতে করে Tools Browser ঠিক parent container ধরে নিতে পারবেন 🎯
 
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img12.jpg)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img13.jpg)
 ---
 
 
@@ -298,7 +298,7 @@ Ads সাধারণত iframe বা dynamic script থেকে আসে �
   এই ID বা Class কপি করো।
 
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img13.jpg)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img14.jpg)
 
 ---
 
@@ -308,7 +308,7 @@ Ads সাধারণত iframe বা dynamic script থেকে আসে �
 app Menu → Local JavaScript page open করো 
 
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img14.jpg)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img15.jpg)
 ---
 এবার এই page থেকে 
 **✔ Entire Site**
@@ -318,7 +318,7 @@ app Menu → Local JavaScript page open করো
 **→ Create new**
 
 ---
-![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img15.jpg)
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img16.jpg)
 ---
 
 নিচের JS বসাও
