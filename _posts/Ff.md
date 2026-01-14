@@ -230,8 +230,9 @@ Ads সাধারণত iframe বা dynamic script থেকে আসে �
 
 সাধারণত এমন হয়:
 
-<div id="ads-container">  
-<div class="banner-ad">  এই ID বা Class কপি করো।
+> <div id="ads-container">  
+> <div class="banner-ad">  
+  এই ID বা Class কপি করো।
 
 ---
 📸 (Screenshot: Parent container highlighted)
@@ -257,17 +258,22 @@ app Menu → Local JavaScript page open করো
 নিচের JS বসাও
 (এটা ID এবং Class — দুটোই support করে):
 
+```javascript
 // Hide by ID
 var adById = document.getElementById("ads-container");
 if (adById) {
 adById.style.display = "none";
 }
+```
+
+```jacascript
 
 // Hide by Class
 var adsByClass = document.getElementsByClassName("banner-ad");
 for (var i = 0; i < adsByClass.length; i++) {
 adsByClass[i].style.display = "none";
 }
+```
 
 👉 এখানে "ads-container" অথবা "banner-ad"
 তুমি Inspector থেকে কপি করা নাম দিয়ে replace করবে।
