@@ -39,6 +39,8 @@ Tools Browser কোনো website-এর ভেতরের ads কাটে �
 
 1. App Settings এ যান→
 ---
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img1)
+
 ---
 
 3. Site Settings এ যান→
