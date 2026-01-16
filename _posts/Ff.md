@@ -246,7 +246,8 @@ Tools Browser ব্যবহার করে
 **Step 1:**
 
 যে Website এর bannar ads hide করতে চান সেই ওয়েবসাইট load করুন।
-আমি w3school load করলাম।
+আমি random একটা site load করলাম।
+নিচের image টা দেখুন banner ads show হইয়েছে।
 
 ---
 ![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img10.jpg)
@@ -257,7 +258,7 @@ i) তারপর **Tools** → button এ ক্লিক করো
 ---
 ![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img11.jpg)
 ---
-ii) Tools page থেকে **Edit Element** tool e ক্লিক করো।
+ii) Tools page থেকে **Edit Element** tool e ক্লিক করো। অথবা direct inspect করে banner ads parent id খুঁজেতে পারেন। আমি ইজি method দেখাসছি। **Edit Element** tool
 
 ---
 ![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img12.jpg)
@@ -295,6 +296,8 @@ Ads সাধারণত iframe বা dynamic script থেকে আসে �
 <div id="ads-container">  
 <div class="banner-ad">
 ```
+
+বা অন্য কিছু নামে থাকতে পারে।
   এই ID বা Class কপি করো।
 
 ---
