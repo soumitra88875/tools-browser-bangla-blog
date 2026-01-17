@@ -287,14 +287,15 @@ Banner-এর ঠিক পাশের কোনো element
 HTML-এ banner ads Parent Container খুঁজুন 
 
 Ads সাধারণত iframe বা dynamic script থেকে আসে —
-ওগুলো modify করা যায় না।
+ওগুলো modify করা যায় না। এর উপর ক্লিক কাজ করে না।
 
-কিন্তু Ads যেই জায়গায় বসে, সেই Parent div hide করা যায়।
+কিন্তু Ads যেই জায়গায় বসে, সেই Parent div বা iframe hide করা যায়।
 
 সাধারণত এমন হয়:
 ```html
 <div id="ads-container">  
 <div class="banner-ad">
+<iframe id="banner-ad">
 ```
 
 বা অন্য কিছু নামে থাকতে পারে।
@@ -325,7 +326,7 @@ app Menu → Local JavaScript page open করো
 ---
 
 নিচের JS বসাও
-(এটা ID এবং Class — দুটোই support করে):
+(এটা ID এবং Class —  যেটা আপনি পাবেন):
 
 ```javascript
 // Hide by ID
@@ -349,7 +350,9 @@ adsByClass[i].style.display = "none";
 
 Save করো।
 
-
+---
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img17.jpg)
+----
 
 ---
 
