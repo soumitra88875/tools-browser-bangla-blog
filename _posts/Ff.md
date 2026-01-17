@@ -236,7 +236,7 @@ hide করা যায়।
 এটা করা হয়
 ওই ads গুলোর Parent Container ধরে
 **HTML code modify করে।**
-চলো দেখি
+চলেন দেখি
 Tools Browser ব্যবহার করে
 এই কাজটা
 কিভাবে করা যায় 🚀
@@ -253,12 +253,12 @@ Tools Browser ব্যবহার করে
 ![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img10.jpg)
 ---
 
-i) তারপর **Tools** → button এ ক্লিক করো
+i) তারপর **Tools** → button এ ক্লিক করুন।
 
 ---
 ![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img11.jpg)
 ---
-ii) Tools page থেকে **Edit Element** tool e ক্লিক করো। অথবা direct inspect করে banner ads parent id খুঁজেতে পারেন। আমি ইজি method দেখাসছি। **Edit Element** tool
+ii) Tools page থেকে **Edit Element** tool e ক্লিক করুন। অথবা direct inspect করে banner ads parent id খুঁজেতে পারেন। আমি ইজি method দেখাবো। **Edit Element** tool
 
 ---
 ![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img12.jpg)
@@ -309,14 +309,14 @@ Ads সাধারণত iframe বা dynamic script থেকে আসে �
 **Step 3:**
 
 এবার আসল কাজ 
-app Menu → Local JavaScript page open করো 
+app Menu → Local JavaScript page open করুন।
 
 ---
 ![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img15.jpg)
 ---
 এবার এই page থেকে 
 **✔ Entire Site**
-এ টিক চিহ্ন দেও।
+এ টিক চিহ্ন দিন।
 
 তারপর মেনু থেকে
 **→ Create new**
@@ -325,8 +325,9 @@ app Menu → Local JavaScript page open করো
 ![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img16.jpg)
 ---
 
-নিচের JS বসাও
-(এটা ID এবং Class —  যেটা আপনি পাবেন):
+নিচের JS বসান 
+(এটা ID এবং Class —  যেটা আপনি পাবেন সেই অনুযায়ী js copy করে নিন। 
+আমি id পেয়েছি তাই **document.getElementById** js টা কপি করলাম):
 
 ```javascript
 // Hide by ID
@@ -346,9 +347,9 @@ adsByClass[i].style.display = "none";
 ```
 
 👉 এখানে "ads-container" অথবা "banner-ad"
-তুমি Inspector থেকে কপি করা নাম দিয়ে replace করবে।
+আপনি Inspector থেকে কপি করা নাম দিয়ে replace করবেন।
 
-Save করো।
+Save করুন।
 
 ---
 ![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/ads-blocker/blog6_img17.jpg)
@@ -383,8 +384,8 @@ Banner ads gone 😌
 আপনি যে জায়গা থেকে
 JS script add করেছিলেন
 (যে site এখনো load আছে),
-সেখানেই গিয়ে
-ওই script টা remove করে দিন।
+**সেখানেই গিয়ে
+ওই script টা remove করে দিন।**
 
 এতেই আপনার ওয়েবপেজ
 আবার আগের মতো
@@ -439,7 +440,7 @@ Tools Browser:
 
 ## 📥 Tools Browser ব্যবহার করো
 
-Tools Browser দিয়ে তুমি পাবে:
+Tools Browser দিয়ে আপনি পাবেন:
 
 Safe browsing
 
@@ -449,7 +450,7 @@ No embarrassment
 
 Full control
 
-সব কিছু নিজের হাতে।
+সব কিছু নিজের হাতে। এই crontrol একমাত্র tools browser এই আছে।
 
 ---
 
