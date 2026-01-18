@@ -1,4 +1,10 @@
-
+---
+layout: post
+title: "ওয়েবসাইট খুললেই কি আপনার ডেটা অন্য কেউ চুরি করে নিয়ে যাচ্ছে? Data চুরি, Unsecured URL আর গোপন Request ধরতে Resources Monitor ব্যবহার করুন"
+date: 2026-01-17 16:10:00 +0530
+published: false 
+thumbnail: https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/resources-monitor/blog7_thum.png
+---
 ## ⚠️ আপনি কি নিশ্চিত, আপনার ফোনে যেই ওয়েবসাইটটা খুলছেন সেটা ১০০% নিরাপদ?
 
 অনেক সময় আমরা দেখি—  
@@ -179,10 +185,33 @@ Resources Monitor সব কিছু দেখাবে না, এবং স�
 
 ## 🪜 Resources Monitor ব্যবহার করার ধাপ (Step by Step)
 
-1. প্রথমে যে ওয়েবসাইটটা দেখতে চান, সেটা লোড করুন  
-2. App Menu খুলুন  
+1. প্রথমে যে ওয়েবসাইটটা দেখতে চান, সেটা লোড করুন (আমি random একটা site open করলাম)
+
+---
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/resources-monitor/blog7_img1.jpg
+)
+---
+
+2. App Menu খুলুন
+
+---
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/resources-monitor/blog7_img2.jpg
+)
+---
+
 3. **Resources Monitor** অপশন এ ক্লিক করুন  
+
+---
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/resources-monitor/blog7_img3.jpg
+)
+---
+
 4. একটার পর একটা URL লিস্টে আসতে দেখুন  
+
+---
+![Thumbnail](https://raw.githubusercontent.com/soumitra88875/tools-browser-blog-image/main/resources-monitor/blog7_img4.jpg
+)
+---
 
 যদি মনে হয় সব URL আসেনি—
 
